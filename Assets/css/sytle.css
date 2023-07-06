@@ -340,26 +340,50 @@ footer{
 
 @media only screen and (max-width: 420px) {
   nav img{
-    width: 40px;
-    height: 40px;
-    margin-left: 5px;
-    margin-top: 5px;
+     width: 40px;
+     height: 40px;
+     margin-left: 5px;
+      margin-top: 5px;
   }
   nav ul li a{
-   font-size: 10px;
+     font-size: 10px;
   }
   #Home{
-    margin-top: 10px;
+     margin-top: 10px;
   }
   .Home h1{
-    font-size: 30px;
-  }
-  .about p {
       font-size: 20px;
   }
-
+  .Home p{
+     font-size: 10px;
+     padding: 5px;
+  }
+  .gambar p{
+    font-size: 10px;
+  }
+  .abc{
+      margin: 10px;
+  }
+  .abc-img{
+     width: 30px;
+     height: 30px;
+  }
+  .abc-text h3{
+      font-size: 12px;
+  }
+  .abc-text i{
+      font-size: 10px;
+  }
+  .about p {
+      font-size: 15px;
+  }
+  .one h3{
+      width: 10px;
+      height: 10px;
+      font-size: 15px;
+  }
   .one p {
-      font-size: 18px;
+      font-size: 12px;
   }
 
   nav ul {
@@ -372,26 +396,59 @@ footer{
 
   .form {
       width: 70%;
-      padding: 50px 40px 100px 40px;
+      padding: 50px 40px 80px 40px;
   }
-
+  .form h2{
+    font-size: 21px;
+  }
+  .form p{
+    font-size: 13px;
+  }
+  .form-label{
+    margin-top: 20px;
+  }
+  .form-label label{
+    font-size: 16px;
+  }
+  .form-label input{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .form-label select{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .form-submit input{
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+  }
   .packages {
       padding: 60px 20px 100px 20px;
   }
-
-  .package p {
+  .package h1{
       font-size: 20px;
+  }
+    
+  .package p {
+      font-size: 15px;
   }
 
   .packages>.package {
       flex: 1 1 100%;
   }
 
-  /* CONTACT */
   .contact_content {
       padding: 100px 20px 100px 20px;
   }
-
+  .contact_head h1{
+      font-size: 20px;
+  }
+  .contact_head p{
+      font-size: 15px;
+  }
   .contact_button a {
       color: #EEEEEE;
       background-color: #222831;
