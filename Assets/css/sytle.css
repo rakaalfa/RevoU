@@ -305,12 +305,10 @@ footer{
       flex-direction: column;
   }
 
-  /* PACKAGE */
   .title h1 {
       font-size: 35px;
   }
 
-  /* CONTACT */
   .contact_head h1 {
       font-size: 35px;
       color: #222831;
@@ -340,7 +338,16 @@ footer{
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 420px) {
+  nav img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  nav
+    
+  
   .about p {
       font-size: 20px;
   }
@@ -353,18 +360,15 @@ footer{
       padding: 25px 10px 25px 10px;
   }
 
-  /* CONTENT */
   .content {
       margin: 0 20px 0 20px;
   }
 
-  /* CONTACT */
   .form {
       width: 70%;
       padding: 50px 40px 100px 40px;
   }
 
-  /* PACKAGE */
   .packages {
       padding: 60px 20px 100px 20px;
   }
