@@ -33,10 +33,25 @@
             </div>
             <div class="tengah">
                 <div class="gambar">
-                    <img src="Assets/img/img.jpg" alt="">
-                    <p>
-                        <i>"Setiap hari membeli sayur dan buah segar disini"</i>
-                    </p>
+                    <div class="slideshow-container">
+                        <div class="slideshow fade">
+                            <img src="Assets/img/img.jpg" alt="">
+                        </div>
+                        <div class="slideshow fade">
+                            <img src="Assets/img/img1.jpg" alt="">
+                        </div>
+                        <div class="slideshow fade">
+                            <img src="Assets/img/img2.jpg" alt="">
+                        </div>
+                        <div style="text-align: center;" class="dot-m">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <p>
+                            <i>"Setiap hari membeli sayur dan buah segar disini"</i>
+                        </p>
+                    </div>
                     <div class="abc">
                         <div class="abc-img">
                             <img src="Assets/img/user.png" alt="">
@@ -69,25 +84,26 @@
                 <div class="form">
                 <h2>Contact Us</h2>
                 <p >Sales kami akan menghubungi anda 1x24 <br>Jam setelah data kami terima</p>
-                <form action="#" method="get">
+                <form action="">
                     <div class="form-label">
                         <label><b>Your Name: </b><br></label>
-                        <input class="type" type="text" name="name" placeholder="First and Last name">
+                        <input class="type" type="text" id="name" placeholder="First and Last name">
                     </div>
                     <div class="form-label">
                         <label><b>Email Address:</b><br></label>
-                        <input class="type" type="Email" name="Email" placeholder="example@gmail.com">
+                        <input class="type" type="email" id="email" placeholder="example@gmail.com">
                     </div>
                     <div class="form-label">
                         <label><b>What are you Interested in?<br></b></label>
-                        <select class="type" name=" option" >
+                        <select class="type" id="option" >
+                            <option disabled selected value>Please select what you interest</option>
                             <option value="Apel">Apel</option>
                             <option value="Mangga">Mangga</option>
                             <option value="Jeruk">Jeruk</option>
                         </select>
                     </div>
                     <div class="form-submit">
-                        <input type="submit" name="submit" value="Send">
+                        <input type="submit" value="Send" onclick="sendContact()">
                         
                     </div>
                 </form>

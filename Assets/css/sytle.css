@@ -263,8 +263,130 @@ footer{
   font-size: 25px;
   color: rgb(139, 139, 139);
 }
-@media only screen and (max-width: 768px){
-  nav ul{
-    justify-content: center;
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 1px 2px;
+  background-color: #808080;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index: 2;
+}
+
+.dot-m {
+  z-index: 2;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.active {
+  background-color: #292929;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+  /* CONTENT */
+  .Home h1 {
+      font-size: 35px;
+  }
+
+  .Home p {
+      font-size: 15px;
+  }
+
+  .tengah {
+      flex-direction: column;
+  }
+
+  /* PACKAGE */
+  .title h1 {
+      font-size: 35px;
+  }
+
+  /* CONTACT */
+  .contact_head h1 {
+      font-size: 35px;
+      color: #222831;
+      padding: 0 0 20px 0;
+  }
+
+  .contact_head p {
+      font-size: 20px;
+  }
+
+  .contact_button a {
+      padding: 30px;
+      font-size: 20px;
+  }
+
+  .footer_title h1 {
+      font-size: 35px;
+  }
+
+  .footer_child {
+      font-size: 20px;
+  }
+
+  .footer_end {
+      font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .about p {
+      font-size: 20px;
+  }
+
+  .one p {
+      font-size: 18px;
+  }
+
+  nav ul {
+      padding: 30px 10px 30px 10px;
+  }
+
+  /* CONTENT */
+  .content {
+      margin: 0 20px 0 20px;
+  }
+
+  /* CONTACT */
+  .form {
+      padding: 50px 40px 100px 40px;
+  }
+
+  /* PACKAGE */
+  .packages {
+      padding: 60px 20px 100px 20px;
+  }
+
+  .package p {
+      font-size: 20px;
+  }
+
+  .packages>.package {
+      flex: 1 1 100%;
+  }
+
+  /* CONTACT */
+  .contact_content {
+      padding: 100px 20px 100px 20px;
+  }
+
+  .contact_button a {
+      color: #EEEEEE;
+      background-color: #222831;
+      border: 2px solid #222831;
+      padding: 20px;
+      font-size: 20px;
   }
 }
+
