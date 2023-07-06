@@ -9,9 +9,9 @@ nav{
   position: fixed;
   background-color: rgb(248, 248, 248);
   width: 100%;
-  border-bottom: 5px solid ;
+  border-bottom: 2px solid ;
   border-color: black;
-  /*justify-content: flex-end;*/
+
   
 }
 nav img{
@@ -343,11 +343,12 @@ footer{
     width: 40px;
     height: 40px;
     margin-left: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
-  nav
+  nav ul li a{
+   font-size: 12px;
     
-  
+  }
   .about p {
       font-size: 20px;
   }
@@ -357,7 +358,7 @@ footer{
   }
 
   nav ul {
-      padding: 25px 10px 25px 10px;
+      padding: 15px 10px 15px 10px;
   }
 
   .content {
