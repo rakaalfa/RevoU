@@ -350,7 +350,7 @@ footer{
   }
 
   nav ul {
-      padding: 30px 10px 30px 10px;
+      padding: 25px 10px 25px 10px;
   }
 
   /* CONTENT */
@@ -360,6 +360,7 @@ footer{
 
   /* CONTACT */
   .form {
+      width: 70%;
       padding: 50px 40px 100px 40px;
   }
 
